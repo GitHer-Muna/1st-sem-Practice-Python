@@ -1,0 +1,32 @@
+#...Pseudocode for Salary Calculation System.....
+
+START
+
+read Salary
+
+if Salary < 3000 then
+print "Actual salary with 0% Income Tax is :," Salary
+
+elif Salary in range 3000, 5000 then
+do Salary = Salary - Salary*6/100
+print "Actual salary with 6% Income Tax is :," Salary
+
+elif Salary in range 5000, 7000 then
+do Salary = Salary - Salary*8/12
+print "Actual salary with 8% Income Tax is :," Salary
+
+elif Salary in range 7000, 8000 then
+do Salary = Salary - Salary*12/100
+print "Actual salary with 12% Income Tax is :," Salary
+
+elif Salary in range 8000, 9000 then
+do Salary = Salary - Salary*16/100
+print "Actual salary with 16% Income Tax is :," Salary
+
+else
+do Salary = Salary - Salary*40/100
+print "Actual salary with 40% Income Tax is :," Salary
+
+end if
+
+END
